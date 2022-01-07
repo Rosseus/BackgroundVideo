@@ -1,0 +1,65 @@
+
+.tapar{
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	z-index: 2;
+	min-width: 100%;
+	min-height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+
+}
+
+.titulo{
+	opacity: 1;
+	position: absolute;
+	margin-top: 23.5%;
+	margin-left: 35%;
+	z-index: 3;
+	color: white;
+	font-size: 100px;
+	font-family: 'Bebas Neue',cursive;
+	font-weight:bold ;
+}
+
+#video{
+	position: fixed;
+	z-index: 1;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	
+}
+
+.play{
+	position: absolute;
+	margin-top: 52%;
+	z-index: 4;
+	width: 100px;
+	height: 30px;
+	font-family: 'Bebas Neue',cursive;
+	font-size: 20px;
+}
+
+.muted{
+	position: absolute;
+	margin-top: 52%;
+	margin-left: 7%;
+	z-index: 5;
+	width: 100px;
+	height: 30px;
+	font-family: 'Bebas Neue',cursive;
+	font-size: 20px;
+
+}
+
+.play:hover{
+	background-color: lightgrey;
+	border: none;
+}
+
+.muted:hover{
+	background-color: lightgrey;
+	border: none;
+}
